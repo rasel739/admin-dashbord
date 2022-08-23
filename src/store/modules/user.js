@@ -1,6 +1,6 @@
-import { login, logout, getInfo } from '@/api/user'
-import { getToken, setToken, removeToken } from '@/utils/auth'
+import { getInfo, login, logout } from '@/api/user'
 import router, { resetRouter } from '@/router'
+import { getToken, removeToken, setToken } from '@/utils/auth'
 
 const state = {
   token: getToken(),
@@ -82,7 +82,7 @@ const actions = {
         resetRouter()
 
         // reset visited views and cached views
-        // to fixed https://github.com/PanJiaChen/vue-element-admin/issues/2485
+        // to fixed https://github.com/PanJiaChen/micro-cms/issues/2485
         dispatch('tagsView/delAllViews', null, { root: true })
 
         resolve()

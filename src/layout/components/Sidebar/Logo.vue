@@ -24,8 +24,8 @@ export default {
   },
   data() {
     return {
-      title: 'Vue Element Admin',
-      logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
+      title: 'Micro CMS',
+      logo: 'https://i.ibb.co/Jr6Kp2K/logo-sm.png'
     }
   }
 }
@@ -57,6 +57,7 @@ export default {
     & .sidebar-logo {
       width: 32px;
       height: 32px;
+      background-color:#fff;
       vertical-align: middle;
       margin-right: 12px;
     }

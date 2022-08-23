@@ -7,11 +7,6 @@
         </div>
         <div style="margin-bottom:50px;">
           <el-col :span="4" class="text-center">
-            <router-link class="pan-btn blue-btn" to="/documentation/index">
-              Documentation
-            </router-link>
-          </el-col>
-          <el-col :span="4" class="text-center">
             <router-link class="pan-btn light-blue-btn" to="/icon/index">
               Icons
             </router-link>
@@ -65,7 +60,7 @@
           </div>
           <div class="component-item">
             <pan-thumb width="100px" height="100px" image="https://wpimg.wallstcn.com/577965b9-bb9e-4e02-9f0c-095b41417191">
-              vue-element-admin
+              micro-cms
             </pan-thumb>
           </div>
         </el-card>
@@ -90,7 +85,7 @@
             <span>hover text</span>
           </div>
           <div class="component-item">
-            <mallki class-name="mallki-text" text="vue-element-admin" />
+            <mallki class-name="mallki-text" text="micro-cms" />
           </div>
         </el-card>
       </el-col>
