@@ -6,10 +6,10 @@
           <img src="../../../../assets/images/icon/wi-1.png" alt="">
         </div>
         <div class="card-panel-description">
+          <count-to :start-val="0" :end-val="1000" :duration="2600" class="card-panel-num" />
           <div class="card-panel-text">
             Pages
           </div>
-          <count-to :start-val="0" :end-val="1000" :duration="2600" class="card-panel-num" />
         </div>
       </div>
     </el-col>
@@ -19,10 +19,10 @@
           <img src="../../../../assets/images/icon/wi-2.png" alt="">
         </div>
         <div class="card-panel-description">
+          <count-to :start-val="0" :end-val="1200" :duration="3000" class="card-panel-num" />
           <div class="card-panel-text">
             Images
           </div>
-          <count-to :start-val="0" :end-val="1200" :duration="3000" class="card-panel-num" />
         </div>
       </div>
     </el-col>
@@ -32,10 +32,10 @@
           <img src="../../../../assets/images/icon/wi-3.png" alt="">
         </div>
         <div class="card-panel-description">
+          <count-to :start-val="0" :end-val="850" :duration="3200" class="card-panel-num" />
           <div class="card-panel-text">
             Documents
           </div>
-          <count-to :start-val="0" :end-val="850" :duration="3200" class="card-panel-num" />
         </div>
       </div>
     </el-col>
@@ -45,10 +45,10 @@
           <img src="../../../../assets/images/icon/wi-4.png" alt="">
         </div>
         <div class="card-panel-description">
-          <div class="card-panel-text">
-            Total Completed
-          </div>
           <count-to :start-val="0" :end-val="1400" :duration="3600" class="card-panel-num" />
+          <div class="card-panel-text">
+            Completed
+          </div>
         </div>
       </div>
     </el-col>
@@ -152,7 +152,7 @@ export default {
         line-height: 18px;
         color: rgba(0, 0, 0, 0.45);
         font-size: 16px;
-        margin-bottom: 12px;
+        margin-top: 12px;
       }
 
       .card-panel-num {
